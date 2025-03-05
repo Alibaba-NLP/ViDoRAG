@@ -98,9 +98,9 @@ Below is a step-by-step guide to help you run the entire framework on your own d
 ### Step1. Bulid the Index Database
 Our framework is built on the foundation of the Llama-Index. We preprocess the corpus in advance and then establish an index database. 
 
-Before embedding the whole dataset, you can run `./llm/vl_embedding.py` to check whether the embedding model is loaded correctly:
+Before embedding the whole dataset, you can run `./llms/vl_embedding.py` to check whether the embedding model is loaded correctly:
 ```python
-python ./llm/vl_embedding.py
+python ./llms/vl_embedding.py
 ```
 Then, you can run `ingestion.py` to embedding the whole dataset:
 ```python
