@@ -98,7 +98,7 @@ We recommend following the guidance of the [Colpali-engine](https://github.com/i
 
 Below is a step-by-step guide to help you run the entire framework on your own dataset. You can also use individual modules independently:  
 
-### Step1. Bulid the Index Database
+### Step1. Build the Index Database
 Our framework is built on the foundation of the Llama-Index. We preprocess the corpus in advance and then establish an index database. 
 
 Before embedding the whole dataset, you can run `./llms/vl_embedding.py` to check whether the embedding model is loaded correctly:
